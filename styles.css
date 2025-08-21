@@ -1,0 +1,13 @@
+html{
+  background-color: (128,0,128);
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+header{
+  text-align: Center;
+  font-size: 20pt;
+  font-weight: oblique;
+  background-color: Black
+  padding: 10px opx 15px 5px;
+}
+
