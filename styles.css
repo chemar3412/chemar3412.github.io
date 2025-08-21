@@ -5,9 +5,34 @@ html{
 
 header{
   text-align: Center;
-  font-size: 20pt;
+  font-size: 20 pt;
   font-weight: oblique;
-  background-color: Black
+  background-color: Black;
   padding: 10px opx 15px 5px;
 }
+
+nav ul li{ 
+  list-style-type: none;
+  display: flex;
+  gap: 2 rem;
+  padding: 0;
+  margin: 0;
+}
+nav ul li{
+  text-decoration: none;
+  color: (255,105,180);
+  font-weight: normal;
+  transition: color 0.3s ease, font-weight 0.3s ease
+}
+
+nav ul li  a: hover {
+    color: (0,191,255);
+  font-weight: bold;
+  text-decoration: uppercase;
+}
+
+
+
+
+  
 
