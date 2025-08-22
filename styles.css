@@ -1,45 +1,45 @@
-html{
-  background-color: rgb (128,0,128);
+html {
+  background-color: rgb(128, 0, 128);
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-header{
-  text-align: Center;
-  font-size: 20 pt;
-  font-weight: oblique;
+header {
+  text-align: center;
+  font-size: 20pt;
+  font-style: oblique;
   background-color: yellow;
-  padding: 10px 0px 15px 5px;
+  padding: 10px 0 15px 5px;
   color: teal;
 }
 
-nav ul{ 
+nav ul {
   list-style-type: none;
   display: flex;
-  text-decoration: none;
-  font-color: RGB (255,105,180);
   font-weight: normal;
 }
 
-nav ul a: hover {
-  color: RGB (0,191,255);
-  font-weight: bold;
-  text-decoration: uppercase;
+nav ul a {
+  text-decoration: none;
+  color: rgb(255, 105, 180);
 }
-main{
+
+nav ul a:hover {
+  color: rgb(0, 191, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main {
   border-style: solid;
   border-width: 25px;
-  margin: 20px, auto, 0px;
+  margin: 20px auto 0;
 }
 
 footer {
   font-size: smaller;
   text-align: center;
   background-color: orange;
-  text-color: white;
+  color: white;
 }
-
-
-
-
   
 
