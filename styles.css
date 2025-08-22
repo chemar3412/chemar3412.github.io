@@ -7,28 +7,28 @@ header{
   text-align: Center;
   font-size: 20 pt;
   font-weight: oblique;
-  background-color: ;
-  padding: 10px opx 15px 5px;
+  background-color: yellow;
+  padding: 10px 0px 15px 5px;
   color: teal;
 }
 
-nav#ul{ 
+nav ul{ 
   list-style-type: none;
   display: flex;
-  gap: 2 rem;
-  padding: 0;
-  margin: 0;
-}
-nav#ul{
   text-decoration: none;
   font-color: (255,105,180);
   font-weight: normal;
 }
 
-nav#ul a: hover {
+nav ul a: hover {
   color: (0,191,255);
   font-weight: bold;
   text-decoration: uppercase;
+}
+main{
+  border-style: solid;
+  border-width: 25px;
+  margin: 20px, auto, 0px;
 }
 
 
