@@ -1,5 +1,5 @@
 html{
-  background-color: (128,0,128);
+  background-color: rgb (128,0,128);
   font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -7,7 +7,7 @@ header{
   text-align: Center;
   font-size: 20 pt;
   font-weight: oblique;
-  background-color: yellow;
+  background-color: ;
   padding: 10px opx 15px 5px;
   font-color: dark red;
 }
