@@ -12,20 +12,20 @@ header{
   font-color: dark red;
 }
 
-nav ul{ 
+nav#ul{ 
   list-style-type: none;
   display: flex;
   gap: 2 rem;
   padding: 0;
   margin: 0;
 }
-nav ul{
+nav#ul{
   text-decoration: none;
   font-color: (255,105,180);
   font-weight: normal;
 }
 
-nav ul a: hover {
+nav#ul a: hover {
   color: (0,191,255);
   font-weight: bold;
   text-decoration: uppercase;
