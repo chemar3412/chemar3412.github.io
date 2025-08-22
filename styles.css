@@ -21,13 +21,12 @@ nav ul{
 }
 nav ul{
   text-decoration: none;
-  color: (255,105,180);
+  font-color: (255,105,180);
   font-weight: normal;
-  transition: color 0.3s ease, font-weight 0.3s ease
 }
 
 nav ul a: hover {
-    color: (0,191,255);
+  color: (0,191,255);
   font-weight: bold;
   text-decoration: uppercase;
 }
