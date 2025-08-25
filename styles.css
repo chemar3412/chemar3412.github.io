@@ -1,45 +1,67 @@
-html {
-  background-color: rgb(128, 0, 128);
-  font-family: Tahoma, Geneva, sans-serif;
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, Helvetica, sans-serif; /* Web-safe font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
+/* Header */
 header {
-  text-align: center;
-  font-size: 20pt;
-  font-style: oblique;
-  background-color: yellow;
-  padding: 10px 0 15px 5px;
-  color: teal;
+    text-align: center; /* Center align text */
+    font-size: 2em; /* Increase font size */
+    font-weight: bold; /* Make font bold */
+    padding: 20px; /* Add padding */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #333; /* Dark background for nav */
 }
 
 nav ul {
-  list-style-type: none;
-  display: flex;
-  font-weight: normal;
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the items */
 }
 
-nav ul a {
-  text-decoration: none;
-  color: rgb(255, 105, 180);
+nav ul li {
+    margin: 0 15px; /* Space between items */
 }
 
-nav ul a:hover {
-  color: rgb(0, 191, 255);
-  font-weight: bold;
-  text-transform: uppercase;
+nav ul li a {
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Add padding */
 }
 
-main {
-  border-style: solid;
-  border-width: 25px;
-  margin: 20px auto 0;
+nav ul li a:hover {
+    background-color: #ddd; /* Light gray background on hover */
+    color: black; /* Change text color on hover */
 }
 
+/* Main Sections */
+main section {
+    padding: 20px; /* Add padding */
+    margin: 20px; /* Add margin */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: white; /* White background for sections */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Footer */
 footer {
-  font-size: smaller;
-  text-align: center;
-  background-color: orange;
-  color: white;
+    font-size: 0.8em; /* Smaller font size */
+    text-align: center; /* Center align text */
+    background-color: #333; /* Dark background */
+    color: white; /* White text color */
+    padding: 10px; /* Add padding */
+    position: relative; /* Positioning */
+    bottom: 0; /* Align to bottom */
+    width: 100%; /* Full width */
 }
-  
 
