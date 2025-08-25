@@ -43,6 +43,10 @@ nav ul li a:hover {
     color: black; /* Change text color on hover */
 }
 
+nav ul li a {
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
 /* Main Sections */
 main section {
     padding: 20px; /* Add padding */
@@ -51,7 +55,37 @@ main section {
     border-radius: 5px; /* Rounded corners */
     background-color: white; /* White background for sections */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Smooth transition for zoom effect */
 }
+
+main section:hover {
+    transform: scale(1.02); /* Zoom in effect on hover */
+}
+
+/* Table Styling */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    border: 1px solid #ccc; /* Light gray border */
+    padding: 10px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+}
+
+thead {
+    background-color: #4CAF50; /* Header background color */
+    color: white; /* Header text color */
+}
+
+caption {
+    font-weight: bold; /* Bold caption */
+    margin: 10px 0; /* Margin for spacing */
+}
+
+
 
 /* Footer */
 footer {
